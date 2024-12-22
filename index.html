@@ -1,33 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cambios main 1</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f4f4f9;
-            
-        }
+            html, body {
+            margin: 0;
+            padding: 0;
 
-        video {
-            max-width: 100%;
-            height: auto;
-            border: 2px solid #ccc;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+            iframe {
+            overflow: hidden;
+            width: 100%;
+            height: 200vh;
+            border: none;
         }
     </style>
+
 </head>
 <body>
-    <h1>Reproductor de Video WebM</h1>
-    <video controls>
-        <!--esta seria la rama main, lo que quiero es que pase para el gogogogo-->
-        <source src="especial-ciberseguridad_videos_ec-ciberseguridad-horizontal_webm_hd" type="video/webm">
-        Tu navegador no soporta la reproducción de video en este formato.
-    </video>
-    <p>Por favor, usa un navegador compatible como Chrome, Firefox o Edge.</p>
+    <div style="height: 100vh, width:90vw">
+        <iframe src="https://ec-data-especial-ciberseguridad.netlify.app/"></iframe>
+    </div>
+    
 </body>
 </html>
